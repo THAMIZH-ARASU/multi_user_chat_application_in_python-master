@@ -46,6 +46,7 @@ def connect():
     else:
         username = entName.get()
         connect_to_server(username)
+        window.title(username)
 
 
 # network client
